@@ -1,0 +1,13 @@
+name: huggingface-nlp-course
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - transformers[sentencepiece]
+      - datasets
+      - numpy
+      - pandas
+      - torch  # or tensorflow, depending on which framework you're using
